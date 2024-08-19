@@ -4,7 +4,7 @@
 
 
 
-* Installing Django (Python library)
+* Installing Django (Python framework >>> backend services)
 
   ```pip install django```
   
