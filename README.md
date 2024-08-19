@@ -189,4 +189,116 @@ As you can see I'm able to login but I don't have any permissions, so let's fix 
 
 ![image](https://github.com/user-attachments/assets/e329ada9-e384-4eae-9394-0d4a26b3bf2a)
 
+The only thing this account is allowed to do is changing its own password : 
 
+![image](https://github.com/user-attachments/assets/77a37e6e-a195-4067-a000-d819f795dabc)
+
+When I login as "Zakaria" you can see that the interface is a lot more different :
+
+![image](https://github.com/user-attachments/assets/ca25f5ee-b8fa-4bef-af96-c16947ccf915)
+
+I can create groups, for e.g. let's create "Viewer Group" 
+
+![image](https://github.com/user-attachments/assets/b375048d-e12a-40f2-b25b-14bdedf4ab9e)
+
+![image](https://github.com/user-attachments/assets/bd2a65cc-6188-4f9c-a4db-d6bac0423c0e)
+
+Click save, and voilà !
+
+![image](https://github.com/user-attachments/assets/d079c6b9-26ce-4dc0-8209-b915be4b121e)
+
+
+Now let's add newly_made_account to that group :
+All we gotta do is click the user then we're taken to this page :
+
+![image](https://github.com/user-attachments/assets/c2c35e86-87b6-48df-aebc-7c6fe3f30269)
+
+Scroll down to "Permissions" then under "Available Groups" select "Viewer Group" then click the arrow icon to add :
+
+![image](https://github.com/user-attachments/assets/980e7245-8bcc-4b82-9d22-95173635b66f)
+
+I won't be adding any permissions to see if the group effects apply correctly.
+
+![image](https://github.com/user-attachments/assets/d2621b81-ac10-44f7-ba69-2cabf70d87d8)
+
+To inspect changes we can go ahead and click "History"
+
+![image](https://github.com/user-attachments/assets/26ac1494-264a-4148-8bb0-325851bd0218)
+
+And we'll be presented with all the changes that were applied to that user and who applied them.
+
+![image](https://github.com/user-attachments/assets/b48ac9db-8798-4ede-a91c-131bf70a86a4)
+
+So, now all that's left is to login and to see if the changes applied to newly_made_account or not.
+
+And the account is now allowed to view Groups and Users but doesn't have permissions to do any actions
+
+![image](https://github.com/user-attachments/assets/f6f8e266-efcb-4c0d-9bbf-05d7496e132b)
+
+After clicking on users we can see the list of created users but we cannot modify anything.
+
+![image](https://github.com/user-attachments/assets/394740a9-e096-4793-b508-94162873301e)
+
+Let's click on "Zakaria" and see what happens.
+
+![image](https://github.com/user-attachments/assets/183922eb-aba4-41ca-9dd3-2aadf59a7bc3)
+
+Let's try resetting the password by clicking ```Reset Password```
+NOPE.avi
+
+![image](https://github.com/user-attachments/assets/2fac8bf4-9456-4e45-95b4-42ae69b4c658)
+
+So let's go ahead and view the groups :
+
+![image](https://github.com/user-attachments/assets/6735107e-18aa-43cc-b310-4cc026f0ec24)
+
+Normal Group
+
+![image](https://github.com/user-attachments/assets/3f45c618-e7c5-49f4-aafa-beb20a0465f0)
+
+Viewer Group
+
+![image](https://github.com/user-attachments/assets/2a68f3b6-c7b0-468f-8e2c-a0ab57d94e49)
+
+Super Users, like the name suggests, they're granted all permissions by default and without the need to explicitly apply them.
+
+![image](https://github.com/user-attachments/assets/f684be9e-d0cc-4e6d-bf34-cc7af1c41463)
+
+Let's go ahead and make our newly_made_account into a Super User and see if we can reset the password, and maybe even delete the other Super User "Zakaria" account :
+Simply checking the Super User box does the trick.
+
+![image](https://github.com/user-attachments/assets/e153f3f4-29f3-4e04-9ffd-ba0ec62a6832)
+
+No permissions were explicitly granted, let's see if Super User does give super powers or not.
+
+![image](https://github.com/user-attachments/assets/64a13da0-bfa6-414a-b1b3-eefd1934f086)
+
+![image](https://github.com/user-attachments/assets/2df1df09-e206-4902-991a-fbae3b348405)
+
+And I can now change and add users/groups as displayed in my actions history
+
+![image](https://github.com/user-attachments/assets/6e8e9b48-869a-4b00-8a77-718811719687)
+
+And am now allowed to change passwords as well 
+
+![image](https://github.com/user-attachments/assets/a8734a82-89ab-43bf-ab2a-35375de32b54)
+
+And done :
+
+![image](https://github.com/user-attachments/assets/87dfcf39-b668-4ee4-9e47-42614854e8e5)
+
+Let's go ahead and see if we can delete the super user "Zakaria" and rule as the one and only Super User in the django-admin realm :
+
+![image](https://github.com/user-attachments/assets/0de588a2-c08d-4e2d-9f8f-0ba0e8ffe6bf)
+
+![image](https://github.com/user-attachments/assets/15ca01c5-7310-4b83-bdc6-9c91d3720d92)
+
+Aaaaaaaaaaaaaaaaaaaaaaaaand gone.
+
+![image](https://github.com/user-attachments/assets/ea28626b-2e40-479b-b896-1d688ae6d5cb)
+
+And when I try to login there's nothing.
+
+![image](https://github.com/user-attachments/assets/32864e46-77bd-4daa-b63a-72f9151799f3)
+
+That's all for my little project, and thank you all for reading !
