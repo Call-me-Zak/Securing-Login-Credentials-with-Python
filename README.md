@@ -39,6 +39,9 @@ Update middleware by adding ```myapp.middleware.WindowsAuthMiddleware```
 ![image](https://github.com/user-attachments/assets/a293660c-f3b6-4e7a-a8e5-b6977de1e23f)
 
 
+Created views.py, urls.py and windows_auth_backend_win.py in myapp directory (check files)
+
+
 
 
 
