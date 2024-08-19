@@ -5,7 +5,8 @@
 
 * Installing Django (Python library)
 
-  ````pip install django```
+  ```pip install django```
+  
   ![image](https://github.com/user-attachments/assets/b6dd4fa2-2bd9-4502-adb0-8706a6a04f49)
 
 * Creating a Django project :
