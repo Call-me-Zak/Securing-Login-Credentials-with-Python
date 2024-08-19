@@ -1,6 +1,7 @@
+# Securing Login Credentials and Managing Access with Python and Django password validators modules.
+
 ![image](https://github.com/user-attachments/assets/0d9f1124-db4f-4598-aba6-7b11f901d73f)# Securing-Login-Credentials-with-Python
 
-# Securing Login Credentials and Managing Access with Python and Django password validators modules.
 
 
 * Installing Django (Python library)
