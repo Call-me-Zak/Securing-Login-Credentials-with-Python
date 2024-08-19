@@ -1,13 +1,7 @@
 ![image](https://github.com/user-attachments/assets/0d9f1124-db4f-4598-aba6-7b11f901d73f)# Securing-Login-Credentials-with-Python
-# Units :
 
+# Securing Login Credentials and Managing Access with Python and Django password validators modules.
 
-## 01 : Creating login interface : HTML, CSS, JavaScript
-## 02 : Mapping URLs to views : Python, Django
-## 03 : 
-
-
-#### Unit 01 :
 
 * Installing Django (Python library)
 
@@ -300,5 +294,10 @@ Aaaaaaaaaaaaaaaaaaaaaaaaand gone.
 And when I try to login there's nothing.
 
 ![image](https://github.com/user-attachments/assets/32864e46-77bd-4daa-b63a-72f9151799f3)
+
+And we can see it's been logged onto newly_made_account actions :
+
+![image](https://github.com/user-attachments/assets/d18c8cb0-2d07-4e04-b2b3-f96e35d323bf)
+
 
 That's all for my little project, and thank you all for reading !
